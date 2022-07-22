@@ -1,0 +1,399 @@
+@import url('https://fonts.googleapis.com/css2?family=Sacramento&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap');
+
+
+body {
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+    /* background-color: #7510F7; */
+
+
+}
+
+.navbar {
+    background-color: #CDF0EA;
+}
+
+/* //////navbar */
+#navbarNav {
+    justify-content: right;
+    /* margin-right: 40px; */
+}
+
+.navbar-brand img {
+    width: 50px;
+    display: flex;
+    position: relative;
+}
+
+.navbar-toggler{
+    border-color: #004954;
+    width: 8%;
+}
+
+.navbar-nav a {
+    /* color: white; */
+    color: black;
+    font-size: 1.25rem;
+    margin-right: 10px;
+    transition: margin 0.2s ease-in;
+    transition-timing-function: linear;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600;
+
+
+
+}
+
+.nav-item a:hover {
+    /* margin-top: 10px; */
+    /* color: #06283D; */
+    color: white;
+    background-color: #8fe4c3;
+    border-radius: 5px;
+
+}
+
+/* navbarends/// */
+
+
+.top-container {
+    width: 80%;
+    margin: auto;
+    margin-top: 30px;
+    padding-top: 40px;
+    position: relative;
+    /* background-color: white; */
+
+    border-radius: 4px;
+}
+
+.top-container p {
+    font-family: 'Sacramento', cursive;
+    font-size: 3rem;
+
+    color: rgb(37 65 201);
+}
+
+.top-container h1 {
+    font-family: 'Sacramento', cursive;
+    font-weight: 500;
+    font-size: 5rem;
+    /* color: white; */
+    color: rgb(37 65 201);
+}
+
+.top-cloud {
+    position: absolute;
+    right: 400px;
+    top: 30px;
+}
+
+.bottom-cloud {
+    position: absolute;
+}
+
+/* /////////////////////////////middle part  */
+.middle-container {
+    width: 70%;
+    margin: auto;
+    margin-top: 30px;
+    padding: 24px 20px 10px 20px;
+    line-height: 33px;
+    /* background-color: white; */
+    border-radius: 4px;
+
+}
+
+.middle-container p {
+    width: 50%;
+    margin: auto;
+    padding-top: 25px;
+    font-size: 20px;
+    color: #007081;
+}
+
+/* end middlepart */
+
+/* /////skillsection */
+
+.skill-section {
+    width: 70%;
+    margin: auto;
+    margin-top: 30px;
+    padding-top: 10px;
+    /* background-color: white; */
+    height: 340px;
+    border-radius: 4px;
+}
+
+#carouselExampleIndicators {
+    width: 85%;
+    margin: auto;
+    /* background-color: aqua; */
+    margin-top: 50px;
+    height: 220px;
+    border-radius: 4px;
+    background-color: #CDF0EA;
+}
+
+.carousel-item {
+    padding-top: 20px;
+}
+
+.carousel-item h2 {
+    padding-top: 20px;
+}
+
+.carousel-item p {
+    padding-top: 20px;
+    font-size: 20px;
+    color: #00816b;
+}
+
+#carouselExampleIndicators button {
+    margin-top: 80px;
+}
+
+/* ///skillsection edn  */
+
+/* //////////myprojecst start */
+
+.My-Projects {
+    height: 405px;
+}
+
+.My-Projects h2 {
+    margin-top: 45px;
+    /* height: 405px; */
+}
+
+.flex-container {
+    display: flex;
+    margin-top: 30px;
+    padding: 10px 10px 10px 10px;
+}
+
+.flex-items img {
+    width: 60%;
+    height: 80%;
+}
+
+.flex-items a {
+    color: black;
+    text-decoration: none;
+    font-size: 25px;
+}
+
+.flex-items a:hover {
+    color: white;
+    background-color: #8fe4c3;
+    border-radius: 4px;
+}
+
+.flex-items {
+    /* background-color: white; */
+    background-color: #CDF0EA;
+    border-radius: 10px;
+    margin-right: 20px;
+}
+
+.flex-items p {
+    color: black;
+
+}
+
+/* ends//////// */
+/* ////formstart */
+.input-name {
+    display: flex;
+    justify-content: center;
+}
+
+input {
+    width: 300px;
+    text-align: center;
+    border-radius: 4px;
+    height: 40px;
+    margin-bottom: 12px;
+}
+
+button {
+    width: 250px;
+    height: 40px;
+    border-radius: 4px;
+    background-color: aqua;
+  
+}
+input{
+    font-size: 20px;
+    
+}
+input::placeholder{
+    color: #00816b;
+    
+} 
+
+.form {
+    margin-top: 48px;
+    margin-bottom: 40px;
+    padding-top: 10px;
+}
+
+.form form {
+    margin-top: 20px;
+    padding-top: 10px;
+}
+
+/* fromend */
+
+/* resume/ */
+.resume {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    height: 156px;
+}
+
+.resume h2 {
+    padding-top: 13px;
+}
+
+.resume button {
+    margin-top: 20px;
+    
+}
+.resume button a:hover{
+    color: white;
+    
+}
+.resume button a {
+    text-decoration: none;
+    color: black;
+    
+}
+
+/* resumeend */
+
+/* footer///// */
+/* .footer{
+    display: flex;
+    justify-content: center;
+}
+.footer img{
+    width: 8%;
+} */
+
+.footer-container {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-top: 2rem;
+    flex-wrap: wrap;
+    height: 20px;
+    /* margin-top: 100px; */
+}
+
+.footer-detail {
+    width: 100%;
+
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    /* background-color: #9058ff; */
+    border-radius: 8px;
+}
+
+.footer-detail a {
+    display: inline-block;
+    justify-content: center;
+    padding: 1rem 2rem;
+    font-size: 2rem;
+    color: black;
+    text-decoration: none;
+    /* flex: 1; */
+    font-family: 'Raleway', sans-serif;
+    transition: margin 0.2s ease-in;
+    transition-timing-function: linear;
+
+}
+
+.footer-detail a:hover {
+    margin-top: 8px;
+    /* color: #8fe4c3; */
+    /* color: #23b77e; */
+    color: white;
+    border-radius: 4px;
+    /* background-color: #64d8ac; */
+
+}
+
+.footer-detail img {
+    height: 30px;
+    width: 30px;
+}
+
+.footer-container {
+    background-color: rgb(0, 123, 123);
+    height: 70px;
+}
+
+/* footerend// */
+
+hr {
+    width: 47%;
+    margin: auto;
+    margin-top: 30px;
+    border-width: 10px;
+    /* border-color: aqua; */
+    border-color: #004954;
+    background-color: white;
+    border-style: none;
+    border-top-style: dotted;
+}
+
+/* hr {
+    border-style: line;
+    width: 60%;
+    border: 1px solid;
+    height: 40px;
+    margin: auto;
+    margin-top: 30px;
+    color: white;
+    border: 2px solid white;
+} */
+
+h2 {
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+    color: rgb(37 65 201);
+
+}
+
+.form button {
+    background-color: white;
+    border-color: #17a2b8;
+    /* columns: #17a2b8; */
+    font-size: 1.25rem;
+    font-weight: 400;
+}
+
+.form button:hover {
+    color: white;
+    /* background-color: rgb(6, 179, 179); */
+    background-color: #004954;
+}
+
+.resume button {
+    background-color: white;
+    border-color: #17a2b8;
+    /* columns: #17a2b8; */
+    font-size: 1.25rem;
+    font-weight: 400;
+}
+
+.resume button:hover {
+    /* background-color: rgb(5, 131, 131); */
+    color: white;
+    background-color: #004954;
+}
